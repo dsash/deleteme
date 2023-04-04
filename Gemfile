@@ -3,11 +3,11 @@
 source 'https://rubygems.org'
 source 'https://rails-assets.org'
 
-gem "middleman", "~> 3.3.3"
+gem "middleman", "~> 4.4.0"
 
 # In order to get SASS 3.3, compass 1.0 is needed
 # FIXME: Remove this once 1.0 is final (very, very soon now -- next week?)
-gem 'compass', '~> 1.0.0.alpha.21'
+gem 'compass', '~> 1.0.3.0.0'
 
 # Live-reloading plugin
 gem "middleman-livereload"
@@ -25,7 +25,7 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 # General plugins
 
 # Blog plugin
-gem "middleman-blog"
+gem "middleman-blog", ">= 4.0.1"
 #gem "middleman-blog-drafts"
 #gem "middleman-blog-authors"
 
@@ -38,10 +38,10 @@ gem 'middleman-deploy'
 gem "middleman-favicon-maker"
 
 # HTML & XML parsing smarts
-gem "nokogiri"
+gem "nokogiri", ">= 1.13.9"
 
 # Syntax highlighting
-gem "middleman-syntax"
+gem "middleman-syntax", ">= 2.1.0"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
@@ -62,7 +62,7 @@ gem 'middleman-piwik'
 # Bootstrap
 
 # Bootstrap, as SASS
-gem "bootstrap-sass", "~> 3"
+gem "bootstrap-sass", "~> 3", ">= 3.4.0"
 
 
 #####
@@ -77,7 +77,7 @@ gem "therubyracer"
 gem "less"
 
 # asciidoctor
-gem "asciidoctor"
+gem "asciidoctor", ">= 1.5.8"
 
 # mediawiki
 gem "wikicloth"
@@ -86,7 +86,7 @@ gem "coderay"
 gem "stringex"
 
 # Markdown
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.5.1'
 
 gem 'open-uri-cached'
 
