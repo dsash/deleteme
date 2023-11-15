@@ -38,7 +38,7 @@ gem 'middleman-deploy'
 gem "middleman-favicon-maker"
 
 # HTML & XML parsing smarts
-gem "nokogiri"
+gem "nokogiri", ">= 1.11.4"
 
 # Syntax highlighting
 gem "middleman-syntax"
@@ -91,7 +91,7 @@ gem 'redcarpet'
 gem 'open-uri-cached'
 
 # RSS/Atom parsing
-gem "feedjira"
+gem "feedjira", ">= 2.0.0"
 
 gem "launchy"
 gem "slop"
